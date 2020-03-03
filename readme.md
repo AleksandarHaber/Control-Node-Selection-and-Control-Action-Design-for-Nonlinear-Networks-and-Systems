@@ -1,6 +1,6 @@
 # Explanation
 
-## What you need to install to use these codes?
+## What you need to install and to use these codes?
 This repository contains MATLAB files used to generate the results in the paper:
 
 "Simultaneous control and control node selection for nonlinear network  
@@ -12,7 +12,7 @@ $$\dot{\mathbf{x}}=\boldsymbol{f}(\mathbf{x})+B\mathbf{u}$$
 
 where $\mathbf{x}$ is the network state, $B$ is the control input matrix, and $\mathbf{u}$ is the control input sequence. The method determines the structure of the matrix $B$ and the control sequence $\mathbf{u}$ that drives the network from an initial to the desired state. 
  
-To use these codes, you need to install (and add to the MATLAB path) the following toolboxes (codes):
+To use these codes, besides MATLAB, you need to install (and add to the MATLAB path) the following toolboxes (codes):
 
 1.) NOMAD solver.  The easiest way to install and to use the NOMAD solver is through the [OPTI toolbox](https://www.inverseproblem.co.nz/OPTI/index.php/DL/DownloadOPTI). 
 
