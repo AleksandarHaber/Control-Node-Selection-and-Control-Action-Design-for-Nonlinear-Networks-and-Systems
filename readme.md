@@ -1,6 +1,6 @@
 # Explanation
 
-## What you need to install and to use these codes?
+## What do you need to install in order to use the codes?
 This repository contains MATLAB files used to generate the results in the paper:
 
 "Simultaneous control and control node selection for nonlinear network  
