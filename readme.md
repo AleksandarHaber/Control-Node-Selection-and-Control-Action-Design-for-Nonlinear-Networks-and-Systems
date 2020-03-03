@@ -13,8 +13,10 @@ $$\dot{\mathbf{x}}=\boldsymbol{f}(\mathbf{x})+B\mathbf{u}$$
 where $\mathbf{x}$ is the network state, $B$ is the control input matrix, and $\mathbf{u}$ is the control input sequence. The method determines the structure of the matrix $B$ and the control sequence $\mathbf{u}$ that drives the network from an initial to the desired state. 
  
 To use these codes, you need to install (and add to the MATLAB path) the following toolboxes (codes):
-1.) NOMAD solver.  The easiest way to install and to use the NOMAD solver is through the [SCIP toolbox](https://www.inverseproblem.co.nz/OPTI/index.php/DL/DownloadOPTI). 
+1.) NOMAD solver.  The easiest way to install and to use the NOMAD solver is through the [OPTI toolbox](https://www.inverseproblem.co.nz/OPTI/index.php/DL/DownloadOPTI). 
+
 2.) [MATLAB BGL]([https://github.com/dgleich/matlab-bgl](https://github.com/dgleich/matlab-bgl)) - this is only necessary if we want to generate the interconnection pattern of Duffing oscillator networks as geometric random graphs. 
+
 3.) CONTEST toolbox- this is only necessary if we want to generate the interconnection pattern of Duffing oscillator networks as geometric random graphs. This toolbox was available [here](http://www.maths.strath.ac.uk/research/groups/numerical_analysis), but last time I checked (March 2020), the link was not working. The toolbox can also be downloaded from [here](https://github.com/jblocher/matlab-network-utilities/tree/master/contest). You only need a single MATLAB file "geo.m"
 
 You only need a single MATLAB file: "geo.m" that generates random geometric graphs. 
