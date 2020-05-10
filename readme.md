@@ -3,8 +3,7 @@
 ## What do you need to install in order to use the codes?
 This repository contains MATLAB files used to generate the results in the paper:
 
-"Simultaneous control and control node selection for nonlinear network  
-dynamics"
+"Control Node Selection Algorithm for Nonlinear Dynamic Networks"
 
 Independently from this paper and its results, the codes can be used to optimally select control nodes of nonlinear networks whose dynamics is smooth and can be described by 
 
